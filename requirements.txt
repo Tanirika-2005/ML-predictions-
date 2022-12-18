@@ -1,0 +1,17 @@
+create a conda venv with python 3.7 
+conda create -n st_de python=3.7
+activate st_de
+conda install numpy
+
+On Prompt install Ephem:
+conda install -c anaconda ephem
+Install Pystan:
+conda install -c conda-forge pystan
+Finally install Fbprophet
+conda install -c conda-forge fbprophet 
+
+pip install tkinter 
+pip install pandas 
+pip install plotly 
+
+run the code!
